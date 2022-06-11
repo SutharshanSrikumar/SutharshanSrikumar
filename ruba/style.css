@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+    
+
+    
+}
+.box{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-color: lightgrey;
+    margin: 2px;
+    border-style: solid;
+
+
+}
+.box img{
+width: 120px;
+height: 100px;
+}
+.box h2{
+    border-style: solid;
+    background-color: yellow;
+}
+.box input{
+    width: 70%;
+}
+.box button{
+    width: 20%;
+    margin: 1px;
+    background-color: greenyellow;
+}
+@media screen {
+    .box{
+        width: 40%;
+    }
+}
+
+
+
